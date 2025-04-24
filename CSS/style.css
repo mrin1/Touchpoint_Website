@@ -1,0 +1,1206 @@
+/* ======================================== common styling ==================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 25px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.com-gap {
+    padding: 104px 0;
+}
+
+img {
+     max-width: 100%; 
+}
+
+/* =========================================================== navbar =========================================================== */
+.header-section {
+    padding: 26px 0;
+    /* background-color: aquamarine; */
+    position: absolute;
+    width: 100%;
+}
+.active{
+    color: aqua !important;
+}
+.header-section-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+    display: flex;
+}
+.nav-link li {
+    padding: 0 58px;
+}
+.nav-link li a {
+    color: #ffff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.nav-link li a:hover{
+    color: aqua;
+}
+
+/* =========================== banner ========================== */
+.banner-section {
+    padding: 164px 0;
+    background: url(../images/yfw9twRIcQNb1BEnZ44rr\ \(1\)\ \(1\)\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.banner-section-child {
+    width: 60%;
+}
+
+.banner-section-child h1 {
+    color: #ffff;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.banner-section-child p {
+    color: #ffff;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.get-btn {
+    display: inline-block;
+    padding: 23px 29px;
+    background-color: #ffff;
+    color: rgba(1, 17, 14, 1);
+    font-size: 16px;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+.get-btn:hover{
+    background-color: aqua;
+    color: black;
+    transition: .3s ease;
+}
+/* ============================= company ================== */
+.company-section {
+    padding: 15px 0;
+    background-color: #ffff;
+}
+.company-section-child {
+    display: flex;
+}
+.company-section-child figure img {
+    width: 100%;
+}
+
+/* ============================ group ======================== */
+.group-section {
+    padding: 100px 0;
+    background-color: #ffff;
+}
+
+.group-section .container .row h2 {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.group-section .container .row p {
+    width: 75%;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.group-card-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-img {
+    padding: 0px 0 20px 0;
+}
+
+.group-img figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.group-card h3 {
+    font-size: 26px;
+    padding-bottom: 6px;
+}
+
+.active-card {
+    margin: 0 42px;
+}
+
+.para {
+    /* width: 100%; */
+}
+
+.group-card {
+    box-shadow: 5px 5px 5px grey;
+    padding: 0 2px 20px 2px;
+}
+
+/* =============================== research =============== */
+.research-section {
+    padding: 100px 0;
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.research-section .container .row h2 {
+    font-size: 50px;
+    color: #ffff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.research-section .container .row {
+    text-align: center;
+}
+
+.research-section .container .row p {
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.research-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.research-card {
+    padding: 60px 20px;
+    background: rgba(26, 26, 26, 1);
+    text-align: left;
+}
+
+.research-card h3 {
+    font-size: 40px;
+    color: #ffff;
+}
+
+.research-card p {
+    font-size: 16px;
+    color: #ffff;
+}
+.research-btn{
+    padding-bottom: 41px;
+}
+.btn2 {
+    display: inline-block;
+    padding: 23px 29px;
+    background-color: rgba(9, 116, 108, 1);
+    color: rgba(1, 17, 14, 1);
+    font-size: 16px;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+.btn2:hover{
+    color: black;
+    background-color: #fff;
+
+}
+/* =================== virtual =================== */
+.virtual-section{
+    padding: 73px 0;
+    background: linear-gradient(180deg, #F5FEFF 8.68%, rgba(245, 254, 255, 0) 100%);
+}
+.virtual-section .container .row h2{
+   font-size: 50px;
+   color: rgba(1, 17, 14, 1);
+   text-align: center;
+   padding-bottom: 44px;
+}
+.assistant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.assistant .card1{
+    padding: 43px 50px;
+    background-color: #ffff;
+}
+.assistant .card1 p{
+    font-size: 16px;
+    color: rgba(69, 74, 73, 1);
+    padding-bottom: 19px;
+}
+.assistant .card1 h4{
+    font-size: 54px;
+    color: rgba(1, 17, 14, 1);
+    padding-bottom: 24px;
+
+}
+.get{
+    display: inline-block;
+    padding: 26px 103px;
+    background: var(--Pine-green, rgba(9, 116, 108, 1));
+    color: #ffff;
+
+}
+.assistant .card2{
+    padding: 126px 38px;
+    background-color: #ffff;
+}
+.assistant .card2 h3{
+     font-size: 18px;
+     color: rgba(1, 17, 14, 1);
+     padding-bottom: 24px;
+
+}
+.assistant .card2 p{
+    font-size: 16px;
+    color: rgba(69, 74, 73, 1);
+    padding-bottom: 19px;
+
+}
+.assistant-card-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.assistant-card{
+    padding: 41px 32px;
+    box-shadow: 0px 14px 83px 0px rgba(97, 153, 212, 0.14);
+}
+.assistant-card p{
+    font-size: 16px;
+    color: rgba(69, 74, 73, 1);
+    padding-bottom: 59px;
+
+}
+.assistant-card h4{
+    font-size: 54px;
+    color: rgba(1, 17, 14, 1);
+
+}
+/* ========================== foundation ================== */
+.foundation-section {
+    padding: 90px 0;
+    background-color: #ffff;
+}
+
+.foundation-section .container .row {
+    text-align: center;
+}
+
+.foundation-section .container .row h2 {
+    font-size: 50px;
+    color: rgba(1, 17, 14, 1);
+    padding-bottom: 40px;
+}
+
+.foundation-section .container .row p {
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 41px;
+}
+
+.foundation-card-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foundation-card {
+    background-color: #ffff;
+    padding: 71px 54px;
+    text-align: left;
+}
+
+.foundation-card h3 {
+    font-size: 26px;
+    color: rgba(1, 17, 14, 1);
+    padding-top: 57px;
+}
+
+.foundation-card p {
+    font-size: 16px;
+    padding-top: 26px;
+
+}
+
+/* ========================= guarantee ==================== */
+.guarantee-section {
+    padding: 110px 0;
+    background: url(../images/guarantee-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.guarantee-section .container .row {
+    text-align: center;
+}
+
+.guarantee-section .container .row h2 {
+    font-size: 50px;
+    color: #ffff;
+    padding-bottom: 31px;
+}
+
+.guarantee-section .container .row p {
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 46px;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 23px 29px;
+    background-color: #ffff;
+    color: rgba(1, 17, 14, 1);
+    font-size: 16px;
+    border-radius: 6px;
+}
+.btn3:hover{
+    background-color: aqua;
+    color: #ffff;
+    transition: all 2s ease;
+}
+/* =========================== review ==================== */
+.review-section {
+    padding: 212px 0;
+    background: rgba(17, 17, 17, 1);
+}
+
+.review-section .container .row{
+    text-align: center;
+}
+
+.review-section .container .row a i {
+    color: rgba(250, 222, 1, 1);
+    padding-bottom: 49px;
+}
+
+.review-section .container .row p{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 48px;
+}
+
+.review-section .container .row h4 {
+    font-size: 26px;
+    color: #fff;
+    padding-bottom: 85px;
+}
+/* ================ work-life ========== */
+.work-life-section{
+    padding: 151px 0;
+    background: linear-gradient(180deg, #F5FEFF 8.68%, rgba(245, 254, 255, 0) 100%);
+}
+.work-life-section .container .row h2{
+      font-size: 50px;
+      color: rgba(1, 17, 14, 1);
+      text-align: center;
+      padding-bottom: 51px;
+
+}
+.work-card-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-card{
+    padding: 39px 24px;
+    box-shadow: 0px 14px 83px 0px rgba(97, 153, 212, 0.14);
+}
+.work-card:hover{
+    background: var(--Pine-green, rgba(9, 116, 108, 1));
+    transition: all 2s ease;
+
+}
+.work-card h3{
+    font-size: 26px;
+    color: rgba(1, 17, 14, 1);
+    padding-bottom: 66px;
+    padding-top: 41px;
+
+}
+.work-card p{
+    font-size: 16px;
+    color: rgba(69, 74, 73, 1);
+
+}
+/* ===================== swiper ============================ */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* footer-section starts--------------------- */
+.footer-child{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section{
+    background-color: #000;
+    color: white;
+    padding: 78px 0 66px 0;
+
+}
+.left{
+    width: 30%;
+}
+.footer-child a{
+    display: inline-block;
+}
+.para{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-links li a,.para,#logopara{
+    padding-bottom: 23px;
+}
+.left a i{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #000;
+}
+.left a i:hover{
+    background-color: #ffff;
+    color: #333;
+    transition: 0.2s  ease-in-out;
+}
+/* footer-section endss--------------------- */
+
+
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+/* media query starts----------------------- */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+     /* ================== navbar ===== */
+     .header-section{
+        padding: 0px 0;
+    }
+    .header-section-child{
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        
+    }
+    .nav-link{
+        flex-direction: column;
+        background-color: #000;
+    }
+    .nav-link li {
+        padding: 15px 0px;
+    }
+     /* ================== banner ==== */
+     .banner-section{
+       min-height: 400px;
+       height: 100%;
+     }
+     .banner-section-child {
+        text-align: center;
+        width: 100%;
+    }
+    .banner-section-child h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .banner-section-child p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .get-btn{
+        padding: 12px 15px;
+    }
+    
+    /* =========================== group ======================================= */
+    .com-gap{
+        padding: 0px;
+    }
+    .group-section {
+        padding: 50px 0;
+        background-color: #ffff;
+    }
+    .group-section .container .row p {
+        width: 100%;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .group-section .container .row h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .group-section{
+        text-align: center;
+    }
+    .group-card-layout{
+        flex-direction: column;
+
+    }
+    .group-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .group-card h3{
+        font-size: 20px;
+    }
+    .group-card p{
+        font-size: 10px;
+    }
+     /* research */
+     .research-section{
+        padding: 50px 0;
+     }
+     .research-section .container .row h2{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .research-section .container .row p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .research-layout{
+        flex-direction: column;
+    }
+    .research-card{
+        text-align: center;
+    }
+    .research-card{
+        width: 100%;
+    }
+    .research-card h3{
+        font-size: 20px;
+    }
+    .research-card p{
+        font-size: 12px;
+    }
+    .btn2{
+        padding: 12px 20px;
+    }
+     /* ======== virtual ============= */
+     .virtual-section{
+        padding: 30px 0;
+    }
+    .virtual-section .container .row h2{
+        font-size: 18px;
+    }
+     .assistant{
+        flex-direction: column;
+        text-align: center;
+    }
+    .assistant .card1{
+        width: 100%;
+    }
+    .assistant .card2{
+        width: 100%;
+    }
+    .get{
+        padding: 8px 25px;
+    }
+    .assistant-card-layout{
+        flex-direction: column;
+    }
+    .assistant-card{
+        text-align: center;
+        width: 100%;
+    }
+    .assistant .card1 p{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .assistant .card1 h4{
+        font-size: 25px;
+
+    }
+    .assistant .card2 h3{
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .assistant .card2 p{
+        font-size: 12px;
+    }
+    .assistant-card p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .assistant-card h4{
+        font-size: 25px;
+    }
+     /* =========== work-life ======= */
+     .work-life-section{
+        padding: 30px 0;
+     }
+     .work-life-section .container .row h2{
+        font-size: 18px;
+     }
+     .work-card-layout{
+        flex-direction: column;
+    }
+     .work-card{
+        text-align: center;
+        width: 100%;
+     }
+    .work-card h3{
+        font-size: 15px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .work-card h3{
+        font-size: 12px;
+    }
+    .review-section{
+        padding: 30px 0;
+     }
+     .review-section .container .row a i{
+         padding-bottom: 18px;
+     }
+     .review-section .container .row p{  font-size: 15px;
+         padding-bottom: 18px;
+     }
+     .review-section .container .row h4{ font-size: 18px;
+         padding-bottom: 20px;
+     }
+      /* guarantee */
+      .guarantee-section{
+        padding: 30px 0;
+     }
+     .guarantee-section .container .row h2{
+        font-size: 20px;
+        padding-bottom: 11px;
+    }
+    .guarantee-section .container .row p{
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .btn3{
+        padding: 12px 15px;
+    }
+     /* foundation */
+     .foundation-section{
+        padding: 30px 0;
+     }
+     .foundation-section .container .row h2{
+        font-size: 20px;
+        padding-bottom: 20px;
+     }
+     .foundation-section .container .row p {
+        font-size: 15px;
+        padding-bottom: 21px;
+     }
+     .foundation-card-layout{
+        flex-direction: column;
+     }
+     .foundation-card h3{
+        font-size: 12px;
+        padding-top: 27px;
+     }
+     .foundation-card p{
+        font-size: 8px;
+        padding-top: 13px;
+     }
+     /* footer-section */
+     .footer-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .four-div{
+        padding: 20px 0;
+    }
+    /* footer-section */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ================== navbar ===== */
+    .virtual-section{
+        padding: 40px 0;
+    }
+    .virtual-section .container .row h2{
+        font-size: 25px;
+    }
+    .header-section{
+        padding: 0px 0;
+    }
+    .header-section-child{
+        padding: 25px 0 ;
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        
+    }
+     /* ================== banner ==== */
+     .banner-section{
+        padding: 50px;
+        /* background-position: 50%; */
+     }
+     .banner-section-child {
+        text-align: center;
+        width: 100%;
+    }
+    .banner-section-child h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .banner-section-child p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .get-btn{
+        padding: 12px 15px;
+    }
+    /* ==================================== group ================================= */
+    .group-section .container .row p {
+        width: 100%;
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+    .group-section .container .row h2 {
+        font-size: 35px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    .group-section{
+        text-align: center;
+    }
+    .group-card-layout{
+        flex-direction: column;
+
+    }
+    .group-card {
+        width: 50%;
+        margin: 20px 0;
+    }
+    .group-card h3{
+        font-size: 20px;
+    }
+    .group-card p{
+        font-size: 10px;
+    }
+     /* research */
+     .research-section .container .row h2{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .research-section .container .row p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .research-layout{
+        flex-direction: column;
+    }
+    .research-card{
+        text-align: center;
+    }
+    .research-card{
+        width: 60%;
+    }
+    .research-card h3{
+        font-size: 20px;
+    }
+    .research-card p{
+        font-size: 12px;
+    }
+    .btn2{
+        padding: 12px 20px;
+    }
+     /* ======== virtual ============= */
+     .assistant{
+        flex-direction: column;
+        text-align: center;
+    }
+    .assistant .card1{
+        width: 80%;
+    }
+    .assistant .card2{
+        width: 80%;
+    }
+    .get{
+        padding: 15px 50px;
+    }
+    .assistant-card-layout{
+        flex-direction: column;
+    }
+    .assistant-card{
+        text-align: center;
+        width: 60%;
+    }
+    .assistant-card p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .assistant-card h4{
+        font-size: 25px;
+    }
+     /* =========== work-life ======= */
+     .work-life-section{
+        padding: 50px 0;
+     }
+     .work-life-section .container .row h2{
+        font-size: 25px;
+     }
+     .work-card-layout{
+        flex-direction: column;
+    }
+    .work-card{
+        text-align: center;
+        width: 100%;
+    }
+    .work-card h3{
+        font-size: 15px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .work-card h3{
+        font-size: 12px;
+    }
+    /* review */
+    .review-section{
+       padding: 50px 0;
+    }
+    .review-section .container .row a i{
+        padding-bottom: 29px;
+    }
+    .review-section .container .row p{    font-size: 18px;
+        padding-bottom: 28px;
+    }
+    .review-section .container .row h4{     font-size: 20px;
+        padding-bottom: 30px;
+    }
+     /* guarantee */
+     .guarantee-section{
+        padding: 50px 0;
+     }
+     .guarantee-section .container .row h2{
+        font-size: 20px;
+        padding-bottom: 11px;
+    }
+    .guarantee-section .container .row p{
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .btn3{
+        padding: 12px 15px;
+    }
+     /* foundation */
+     .foundation-section{
+        padding: 50px 0;
+     }
+     .foundation-section .container .row h2{
+        font-size: 20px;
+        padding-bottom: 20px;
+     }
+     .foundation-section .container .row p {
+        font-size: 15px;
+        padding-bottom: 21px;
+     }
+     .foundation-card-layout{
+        flex-direction: column;
+     }
+     .foundation-card h3{
+        font-size: 12px;
+        padding-top: 27px;
+     }
+     .foundation-card p{
+        font-size: 8px;
+        padding-top: 13px;
+     }
+
+     /* footer-section */
+     .footer-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .four-div{
+        padding: 20px 0;
+    }
+    /* footer-section */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ================== navbar ===== */
+    .header-section-child{
+        flex-direction: column;
+    }
+     /* ================== banner ==== */
+     .banner-section-child {
+        text-align: center;
+        width: 100%;
+    }
+    .banner-section-child h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .banner-section-child p{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    /* ===================================== group =========================================== */
+    .group-section .container .row p {
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .group-section .container .row h2 {
+        font-size: 45px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    .group-section{
+        text-align: center;
+    }
+    .group-card-layout{
+        flex-direction: column;
+
+    }
+  
+    .group-card {
+        width: 70%;
+        margin: 20px 0;
+    }
+    /* research */
+    .research-section .container .row h2{
+        font-size: 40px;
+    }
+    .research-layout{
+        flex-direction: column;
+    }
+    .research-card{
+        text-align: center;
+    }
+    .research-card{
+        width: 70%;
+    }
+    /* ======== virtual ============= */
+    .assistant{
+        flex-direction: column;
+    }
+    .assistant .card1{
+        width: 70%;
+    }
+    .assistant .card2{
+        width: 70%;
+    }
+    .assistant-card-layout{
+        flex-direction: column;
+    }
+    .assistant-card{
+        width: 70%;
+    }
+    .virtual-section .container .row h2{
+        padding-bottom: 34px;
+    }
+    .assistant .card1 p{
+        padding-bottom: 10px;
+    }
+    .assistant .card2 p{
+        padding-bottom: 10px;
+    }
+    .assistant .card1 h4{
+        padding-bottom: 18px;
+    }
+    .assistant-card p{
+        padding-bottom: 39px;
+    }
+     /* =========== work-life ======= */
+     .work-card-layout{
+        flex-direction: column;
+    }
+    .work-card{
+        width: 70%;
+    }
+    .work-life-section .container .row h2{
+        padding: 31px;
+    }
+    .work-card h3{
+        padding-bottom: 40px;
+        padding-top: 21px;
+    }
+    /* review */
+    .review-section .container .row a i{
+        padding-bottom: 39px;
+    }
+    .review-section .container .row p{
+        padding-bottom: 38px;
+    }
+    .review-section .container .row h4{
+        padding-bottom: 65px;
+    }
+     /* guarantee */
+     .guarantee-section .container .row h2{
+        font-size: 40px;
+        padding-bottom: 21px;
+    }
+    .guarantee-section .container .row p{
+        font-size: 18px;
+        padding-bottom: 36px;
+    }
+    .btn3{
+        padding: 20px 25px;
+    }
+     /* foundation */
+     .foundation-section .container .row h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+     }
+     .foundation-section .container .row p {
+        font-size: 18px;
+        padding-bottom: 31px;
+     }
+     .foundation-card-layout{
+        flex-direction: column;
+     }
+     .foundation-card h3{
+        font-size: 20px;
+        padding-top: 47px;
+     }
+     .foundation-card p{
+        font-size: 14px;
+        padding-top: 20px;
+     }
+     
+    /* footer-section */
+    .footer-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .four-div{
+        padding: 20px 0;
+    }
+    /* footer-section */
+       
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     /* ================== banner ==== */
+    .banner-section-child {
+        text-align: center;
+        width: 100%;
+    } 
+    /* =========== work-life ======= */
+    .work-card-layout{
+        flex-direction: column;
+    }
+    .work-life-section .container .row h2{
+        padding: 31px;
+    }
+    .work-card h3{
+        padding-bottom: 40px;
+        padding-top: 21px;
+    }
+    /* review */
+    .review-section .container .row a i{
+        padding-bottom: 39px;
+    }
+    .review-section .container .row p{
+        padding-bottom: 38px;
+    }
+    .review-section .container .row h4{
+        padding-bottom: 65px;
+    }
+    /* guarantee */
+    .guarantee-section .container .row h2{
+        font-size: 40px;
+        padding-bottom: 21px;
+    }
+    .guarantee-section .container .row p{
+        font-size: 18px;
+        padding-bottom: 36px;
+    }
+    .btn3{
+        padding: 20px 25px;
+    }
+     /* foundation */
+     .foundation-section .container .row h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+     }
+     .foundation-section .container .row p {
+        font-size: 18px;
+        padding-bottom: 31px;
+     }
+     .foundation-card-layout{
+        flex-direction: column;
+     }
+     .foundation-card h3{
+        font-size: 20px;
+        padding-top: 47px;
+     }
+     .foundation-card p{
+        font-size: 14px;
+        padding-top: 20px;
+     }
+
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    
+}
